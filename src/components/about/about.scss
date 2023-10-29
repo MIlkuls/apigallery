@@ -1,0 +1,15 @@
+@import './../../style/var.scss';
+
+.about {
+    flex: 3;
+    background-color: $second-color;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:36px;
+    padding: 20px;
+    color:#fff;
+    a{
+        color:$first-color;
+    }
+}
